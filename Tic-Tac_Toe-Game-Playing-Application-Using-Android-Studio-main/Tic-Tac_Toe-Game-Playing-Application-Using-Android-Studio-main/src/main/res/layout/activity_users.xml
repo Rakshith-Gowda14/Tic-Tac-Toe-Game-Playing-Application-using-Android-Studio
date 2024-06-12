@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9285DEED"
+    tools:context=".Activities.UsersActivity">
+
+    <TextView
+        android:id="@+id/TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="94dp"
+        android:layout_marginEnd="55dp"
+        android:text="Please Select Game Type"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TextView"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="221dp"
+        android:layout_marginBottom="265dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/SinglePlayerBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:layout_weight="0.5"
+            android:text="Single Player"
+            app:backgroundTint="#0AB5AF" />
+
+        <Button
+            android:id="@+id/MultiPlayerBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:layout_weight="0.5"
+            android:text="Multi Player"
+            app:backgroundTint="#0AB5AF" />
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="158dp"
+        android:layout_height="199dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="354dp"
+        android:src="@drawable/multip" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="185dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="233dp"
+        android:layout_marginBottom="360dp"
+        android:src="@drawable/singleplayer" />
+
+
+</RelativeLayout>
